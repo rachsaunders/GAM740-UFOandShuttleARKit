@@ -15,6 +15,8 @@
 		18BE9866258C8C8100AEA0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE9864258C8C8100AEA0DE /* LaunchScreen.storyboard */; };
 		18BE9871258C8C8100AEA0DE /* GAM740_UFOandShuttleARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9870258C8C8100AEA0DE /* GAM740_UFOandShuttleARKitTests.swift */; };
 		18BE987C258C8C8100AEA0DE /* GAM740_UFOandShuttleARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE987B258C8C8100AEA0DE /* GAM740_UFOandShuttleARKitUITests.swift */; };
+		18DEFD65258C8DDD005606EE /* stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 18DEFD64258C8DDD005606EE /* stars.scnp */; };
+		18DEFD6A258C8DF3005606EE /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 18DEFD69258C8DF3005606EE /* fire.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		18BE9877258C8C8100AEA0DE /* GAM740-UFOandShuttleARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAM740-UFOandShuttleARKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE987B258C8C8100AEA0DE /* GAM740_UFOandShuttleARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAM740_UFOandShuttleARKitUITests.swift; sourceTree = "<group>"; };
 		18BE987D258C8C8100AEA0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DEFD64258C8DDD005606EE /* stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = stars.scnp; sourceTree = "<group>"; };
+		18DEFD69258C8DF3005606EE /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				18BE9859258C8C8100AEA0DE /* AppDelegate.swift */,
+				18DEFD64258C8DDD005606EE /* stars.scnp */,
+				18DEFD69258C8DF3005606EE /* fire.scnp */,
 				18BE985B258C8C8100AEA0DE /* art.scnassets */,
 				18BE985D258C8C8100AEA0DE /* ViewController.swift */,
 				18BE985F258C8C8100AEA0DE /* Main.storyboard */,
@@ -232,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BE985C258C8C8100AEA0DE /* art.scnassets in Resources */,
+				18DEFD65258C8DDD005606EE /* stars.scnp in Resources */,
 				18BE9866258C8C8100AEA0DE /* LaunchScreen.storyboard in Resources */,
 				18BE9863258C8C8100AEA0DE /* Assets.xcassets in Resources */,
+				18DEFD6A258C8DF3005606EE /* fire.scnp in Resources */,
 				18BE9861258C8C8100AEA0DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
