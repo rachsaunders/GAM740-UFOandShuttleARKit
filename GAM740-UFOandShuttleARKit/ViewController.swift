@@ -49,6 +49,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         tap.numberOfTapsRequired = 1
         doubleTap.numberOfTapsRequired = 2
         
+        tap.require(toFail: doubleTap)
+        
         sceneView.addGestureRecognizer(tap)
         sceneView.addGestureRecognizer(doubleTap)
         
